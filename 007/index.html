@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="theme-color" content="#506ec7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Parth Makwana, ICT Engineer & Web Developer. View my projects, skills, and experience.">
+    <meta property="og:title" content="Parth Makwana | ICT Engineer & Web Developer">
+    <meta property="og:description" content="Portfolio of Parth Makwana, ICT Engineer & Web Developer. View my projects, skills, and experience.">
+    <meta property="og:type" content="website">
+    <title>Tech Portfolio | Parth Makwana</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>PM</text></svg>">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <nav>
+            
+            <div class="logo">
+                <svg class="logo-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="40" height="40" rx="8" fill="#3498db"/>
+                    <path d="M12 12H16V28H12V12Z" fill="white"/>
+                    <path d="M20 12H24V28H20V12Z" fill="white"/>
+                    <path d="M12 12H24V16H12V12Z" fill="white"/>
+                    <path d="M28 12H32V28H28V12Z" fill="#3498db" stroke="white" stroke-width="2"/>
+                </svg>
+                <span class="logo-text">Parth Makwana</span>
+            </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+    <section id="home" class="hero">
+        <canvas id="techCanvas"></canvas>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Parth Makwana</span></h1>
+                <h2>A <span class="typing"></span></h2>
+                <p>Building innovative solutions with cutting-edge technology</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://sdk.bitmoji.com/render/panel/10212038-99644372295_78-s5-v1.png?transparent=1&palette=1&scale=2"
+                    alt="Parth Makwana Profile Image"
+                    class="profile-img"
+                    loading="lazy"
+                    width="400"
+                    height="400">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-user"></i> About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I'm a passionate ICT Engineer with expertise in computer systems, networking, 
+                        and full-stack development. Proficient in Java, Python, JavaScript, and database management,
+                        I specialize in creating innovative technical solutions and troubleshooting complex challenges.</p>
+                    <a href="mycv.pdf" class="btn" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+                <div class="about-image">
+                    <img src="https://sdk.bitmoji.com/render/panel/20088502-99644372295_76-s5-v1.png?transparent=1&palette=1&scale=2" alt="About Image" loading="lazy" >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+            <i class="fas fa-project-diagram"></i>
+            Featured <span>Projects</span>
+            </h2>
+
+            <!-- Projects will come here -->
+            <div class="projects-grid"></div>
+
+            <!-- ✅ Button OUTSIDE grid -->
+            <div class="view-all-wrapper">
+            <button id="viewAllBtn" class="btn">View All Projects</button>
+            </div>
+
+        </div>
+        </section>
+
+    
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education <span>History</span></h2>
+            <div class="education-timeline">
+                <!-- Education items will be added by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title"><i class="fas fa-tools"></i><span>Professional</span> Skills</h2>
+        <div class="skills-container">
+            <div class="skills-list">
+                
+                <!-- Skills will be added by JavaScript -->
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
+            <div class="experience-timeline">
+                <!-- Experience items will be added by JavaScript -->
+            </div>
+            <!-- ✅ Button OUTSIDE grid -->
+            <div class="view-all-wrapper">
+            <button id="viewAllExperienceBtn" class="btn">View All </button>
+            </div>
+        </div>
+    </section>
+
+<section id="contact" class="contact">
+    <div class="container">
+    <h2 class="section-title">
+        <i class="fas fa-envelope"></i>
+        <span>Contact</span> Me
+    </h2>
+            <div class="section">
+                <div class="contact-options">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Directly</h3>
+                        <p>Send me an email directly for the fastest response</p>
+                        <a href="mailto:makvanaparth060@gmail.com" class="contact-btn">Send Email</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me professionally on LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/makvana-parth-061667292/" class="contact-btn" target="_blank">Connect</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Check out my projects and code repositories</p>
+                        <a href="https://github.com/Parth-Makwana06" class="contact-btn" target="_blank">View Profile</a>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/Parth-Makwana06" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/makvana-parth-061667292/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/parthmakwana06/" class="social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:makvanaparth060@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+                <div class="benefits">
+                <h3 class="section-title">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Benefits </span> of Removing  the Form</h3>
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <i class="fas fa-bolt"></i>
+                        <h4>Faster Communication</h4>
+                        <p>Direct contact methods eliminate delays from form processing</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Improved Security</h4>
+                        <p>No forms means no vulnerabilities to exploit or spam to filter</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <i class="fas fa-thumbs-up"></i>
+                        <h4>Better User Experience</h4>
+                        <p>Visitors can use their preferred communication method</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <i class="fas fa-code"></i>
+                        <h4>Simpler Maintenance</h4>
+                        <p>No backend processing or form validation needed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 96879 65861</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>makvanaparth060@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Rajkot, Gujarat - India</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Parth Makwana. All rights reserved.</p>
+            <p>Designed With ❤️ By Parth Makwana</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="next.js"></script>
+
+</body>
+</html>
