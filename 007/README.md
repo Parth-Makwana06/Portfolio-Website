@@ -6,7 +6,7 @@ A personal **portfolio website** built with HTML, CSS, and JavaScript showcasing
 
 ## 🔗 Live Preview
 
-> Open `index.html` in your browser or deploy via GitHub Pages.
+https://portfoliowebsite060.netlify.app/
 
 ---
 
