@@ -15,7 +15,7 @@ https://portfoliowebsite060.netlify.app/
 I'm **Parth Makwana**, a passionate **ICT Engineer** from Rajkot, Gujarat.  
 Skilled in full-stack web development, IoT, VLSI, and AI/ML.
 
-- 🎓 Diploma in Information & Communication Technology — A.V. Parekh Technical Institute, Rajkot (GTU)
+- 🎓 Information & Communication Technology — 
 - 📍 Rajkot, Gujarat, India
 - 📧 makvanaparth060@gmail.com
 
